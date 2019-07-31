@@ -31,7 +31,7 @@ import Foundation
         ]
     }
     
-    public init(sdkBuild: String) {
+    @objc public init(sdkBuild: String) {
         self.sdkBuild = sdkBuild
     }
 }
