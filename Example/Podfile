@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'NRLogger_Example' do
+  pod 'NRLogger', :path => '../'
+
+  target 'NRLogger_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
