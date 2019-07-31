@@ -1,0 +1,6 @@
+framework module NRLogger {
+  umbrella header "NRLogger-umbrella.h"
+
+  export *
+  module * { export * }
+}

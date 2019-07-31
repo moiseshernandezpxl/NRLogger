@@ -1,0 +1,769 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1AF405980F2B6E2D2C2C624256D599B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		34721CC122F7F618116961E090B28528 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		3ABE16985DBB064FA33B89AD0F53CA10 /* NRLogger-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CF2205DDD9602BCE3781D09FBBC62F3 /* NRLogger-dummy.m */; };
+		5EB639047EFEEDA271F9082726860819 /* NRLogger-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F073A7678A98235F415E639F06B03E2A /* NRLogger-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6618C3CCDD2953C3E2BA423F832A5CE4 /* Pods-NRLogger_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 464021CF7E66496CE46EFBF51C1759DD /* Pods-NRLogger_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA28615E8C43F23DC735C4B4791D6FD3 /* Pods-NRLogger_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D82ED6FFE3DCB8C7DB12EB443C520FC8 /* Pods-NRLogger_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C37E4CA5F0F2926C5D5AF8BB1CE0CE6B /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03CB1103A4E3BE7E2011EBF024BD0583 /* ReplaceMe.swift */; };
+		EA763008CFDE16D5A5920582CFD83835 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		EDE751748AC0756C48C88EE197E41624 /* Pods-NRLogger_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E31E41AE19E158D1C6FD38851B5BFB2 /* Pods-NRLogger_Example-dummy.m */; };
+		F04A361D551DEDEB00F2FED0478C94BE /* Pods-NRLogger_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BAEA7A1FF485DACBA47513A3E4A9A47A /* Pods-NRLogger_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		336EAFFFB5EE7C7C266D4DED7D4DBCC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8EEB62BB1B749E9DBD6822940353522E;
+			remoteInfo = NRLogger;
+		};
+		98CB41A2AFFD1FFF17B2C6178BA07B98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1526DFB31DE028BE021F0F84478B45D3;
+			remoteInfo = "Pods-NRLogger_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03CB1103A4E3BE7E2011EBF024BD0583 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = NRLogger/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		084C27211B4B8850E4ECED1ECD78DFDE /* NRLogger-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NRLogger-Info.plist"; sourceTree = "<group>"; };
+		1F75EF065E2A0581167B954F934625AC /* Pods-NRLogger_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NRLogger_Tests.modulemap"; sourceTree = "<group>"; };
+		22A503A4E1B483A569FD1B5C571D2870 /* Pods_NRLogger_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NRLogger_Tests.framework; path = "Pods-NRLogger_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		255ECD68C160A77FB7A61A16217EEE02 /* Pods-NRLogger_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NRLogger_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		27A9174DA4155E1CBA7F6A1B5FFB3B85 /* Pods-NRLogger_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NRLogger_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		2A0AA7D5F275E1879194CF88CB6E72ED /* Pods-NRLogger_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NRLogger_Tests-Info.plist"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3E31E41AE19E158D1C6FD38851B5BFB2 /* Pods-NRLogger_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NRLogger_Example-dummy.m"; sourceTree = "<group>"; };
+		4016606C09BA51A18B10B4DCFDF16669 /* NRLogger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NRLogger.framework; path = NRLogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		409C0D382D791AE5760425E9281BE854 /* Pods-NRLogger_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NRLogger_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		410A1B02732304AD1DE099DEBBD858B8 /* Pods-NRLogger_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NRLogger_Example-Info.plist"; sourceTree = "<group>"; };
+		4158B9AC4243DEED07BBA62E3C3D6FD4 /* Pods-NRLogger_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NRLogger_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		464021CF7E66496CE46EFBF51C1759DD /* Pods-NRLogger_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NRLogger_Example-umbrella.h"; sourceTree = "<group>"; };
+		49FCBEB166358EE29D2FCC18BBD1839C /* NRLogger-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NRLogger-prefix.pch"; sourceTree = "<group>"; };
+		52285453AED566E9D6D7C67C7B52694C /* Pods-NRLogger_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NRLogger_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6CF2205DDD9602BCE3781D09FBBC62F3 /* NRLogger-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NRLogger-dummy.m"; sourceTree = "<group>"; };
+		71F57DA2485A2444AEF9B7DF55580835 /* NRLogger.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NRLogger.modulemap; sourceTree = "<group>"; };
+		82319178E16F3BBFD5B1C3528BB78219 /* Pods-NRLogger_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NRLogger_Example-frameworks.sh"; sourceTree = "<group>"; };
+		903F6D07BBA3D43E1C238AEDF801A16C /* NRLogger.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NRLogger.xcconfig; sourceTree = "<group>"; };
+		911723D9C16E8BB4672AFA3613CF04B6 /* Pods-NRLogger_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NRLogger_Example.modulemap"; sourceTree = "<group>"; };
+		946E09831DE43F7AFF60CE5A786A2B4A /* Pods-NRLogger_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NRLogger_Example.release.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FC34CAD1BCD2D9BA0345595185E3D64 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		A2826485728323309DA43E008FBCAFEC /* Pods-NRLogger_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NRLogger_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A92F9395E840B84252DEC63359446380 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		BAEA7A1FF485DACBA47513A3E4A9A47A /* Pods-NRLogger_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NRLogger_Tests-dummy.m"; sourceTree = "<group>"; };
+		C81C42869AD1394228FF71329A9A7CCD /* NRLogger.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = NRLogger.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D82ED6FFE3DCB8C7DB12EB443C520FC8 /* Pods-NRLogger_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NRLogger_Tests-umbrella.h"; sourceTree = "<group>"; };
+		F073A7678A98235F415E639F06B03E2A /* NRLogger-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NRLogger-umbrella.h"; sourceTree = "<group>"; };
+		F2FC58D095029B43356236757DD3648D /* Pods_NRLogger_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NRLogger_Example.framework; path = "Pods-NRLogger_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB557156FE1836DBE64D7E50F5C6F32A /* Pods-NRLogger_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NRLogger_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		195A8D863269019E5C10104693F6C578 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34721CC122F7F618116961E090B28528 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20FFE2814FF471F21777E711EB1E8C12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA763008CFDE16D5A5920582CFD83835 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4464DB247B8FB828285344339373B4FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AF405980F2B6E2D2C2C624256D599B2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		248502F64FD19B9AA7EA2BFE95ADC93F /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				64BD126A7ECC960AD419F56E477E8895 /* NRLogger */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		2A8D883F667696092C093EA84EFA0ACA /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A92F9395E840B84252DEC63359446380 /* LICENSE */,
+				C81C42869AD1394228FF71329A9A7CCD /* NRLogger.podspec */,
+				9FC34CAD1BCD2D9BA0345595185E3D64 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		4695274B86C5873068E94908B1DF80DC /* Pods-NRLogger_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1F75EF065E2A0581167B954F934625AC /* Pods-NRLogger_Tests.modulemap */,
+				A2826485728323309DA43E008FBCAFEC /* Pods-NRLogger_Tests-acknowledgements.markdown */,
+				52285453AED566E9D6D7C67C7B52694C /* Pods-NRLogger_Tests-acknowledgements.plist */,
+				BAEA7A1FF485DACBA47513A3E4A9A47A /* Pods-NRLogger_Tests-dummy.m */,
+				2A0AA7D5F275E1879194CF88CB6E72ED /* Pods-NRLogger_Tests-Info.plist */,
+				D82ED6FFE3DCB8C7DB12EB443C520FC8 /* Pods-NRLogger_Tests-umbrella.h */,
+				409C0D382D791AE5760425E9281BE854 /* Pods-NRLogger_Tests.debug.xcconfig */,
+				4158B9AC4243DEED07BBA62E3C3D6FD4 /* Pods-NRLogger_Tests.release.xcconfig */,
+			);
+			name = "Pods-NRLogger_Tests";
+			path = "Target Support Files/Pods-NRLogger_Tests";
+			sourceTree = "<group>";
+		};
+		64BD126A7ECC960AD419F56E477E8895 /* NRLogger */ = {
+			isa = PBXGroup;
+			children = (
+				03CB1103A4E3BE7E2011EBF024BD0583 /* ReplaceMe.swift */,
+				2A8D883F667696092C093EA84EFA0ACA /* Pod */,
+				ABFC0BE31E98C39C332F14749AF144F4 /* Support Files */,
+			);
+			name = NRLogger;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		79957FE644F0AEE4AA0B5FAAA24FAB13 /* Pods-NRLogger_Example */ = {
+			isa = PBXGroup;
+			children = (
+				911723D9C16E8BB4672AFA3613CF04B6 /* Pods-NRLogger_Example.modulemap */,
+				255ECD68C160A77FB7A61A16217EEE02 /* Pods-NRLogger_Example-acknowledgements.markdown */,
+				FB557156FE1836DBE64D7E50F5C6F32A /* Pods-NRLogger_Example-acknowledgements.plist */,
+				3E31E41AE19E158D1C6FD38851B5BFB2 /* Pods-NRLogger_Example-dummy.m */,
+				82319178E16F3BBFD5B1C3528BB78219 /* Pods-NRLogger_Example-frameworks.sh */,
+				410A1B02732304AD1DE099DEBBD858B8 /* Pods-NRLogger_Example-Info.plist */,
+				464021CF7E66496CE46EFBF51C1759DD /* Pods-NRLogger_Example-umbrella.h */,
+				27A9174DA4155E1CBA7F6A1B5FFB3B85 /* Pods-NRLogger_Example.debug.xcconfig */,
+				946E09831DE43F7AFF60CE5A786A2B4A /* Pods-NRLogger_Example.release.xcconfig */,
+			);
+			name = "Pods-NRLogger_Example";
+			path = "Target Support Files/Pods-NRLogger_Example";
+			sourceTree = "<group>";
+		};
+		7AEB1C8AE0342A9231D8687E70335BC8 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				79957FE644F0AEE4AA0B5FAAA24FAB13 /* Pods-NRLogger_Example */,
+				4695274B86C5873068E94908B1DF80DC /* Pods-NRLogger_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		ABFC0BE31E98C39C332F14749AF144F4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				71F57DA2485A2444AEF9B7DF55580835 /* NRLogger.modulemap */,
+				903F6D07BBA3D43E1C238AEDF801A16C /* NRLogger.xcconfig */,
+				6CF2205DDD9602BCE3781D09FBBC62F3 /* NRLogger-dummy.m */,
+				084C27211B4B8850E4ECED1ECD78DFDE /* NRLogger-Info.plist */,
+				49FCBEB166358EE29D2FCC18BBD1839C /* NRLogger-prefix.pch */,
+				F073A7678A98235F415E639F06B03E2A /* NRLogger-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/NRLogger";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C863B35A402F558C48468CE8FC88C1F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4016606C09BA51A18B10B4DCFDF16669 /* NRLogger.framework */,
+				F2FC58D095029B43356236757DD3648D /* Pods_NRLogger_Example.framework */,
+				22A503A4E1B483A569FD1B5C571D2870 /* Pods_NRLogger_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				248502F64FD19B9AA7EA2BFE95ADC93F /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				C863B35A402F558C48468CE8FC88C1F9 /* Products */,
+				7AEB1C8AE0342A9231D8687E70335BC8 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3D563804E3743E90DC2855EFFE6DFEE3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6618C3CCDD2953C3E2BA423F832A5CE4 /* Pods-NRLogger_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8ABE0F3750CFDD19022242C509A94EAF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA28615E8C43F23DC735C4B4791D6FD3 /* Pods-NRLogger_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6937E051B0D220CB17AEF2BAEC21497 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EB639047EFEEDA271F9082726860819 /* NRLogger-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1526DFB31DE028BE021F0F84478B45D3 /* Pods-NRLogger_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9378FCD66947ED2112F75F59634A8FE5 /* Build configuration list for PBXNativeTarget "Pods-NRLogger_Example" */;
+			buildPhases = (
+				3D563804E3743E90DC2855EFFE6DFEE3 /* Headers */,
+				91ED47F43449C3C1F966C919A6AEF5AB /* Sources */,
+				20FFE2814FF471F21777E711EB1E8C12 /* Frameworks */,
+				27DC2177C5735299910E4B242DE7BB78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				489FEFB114644275D3099C23EEF58749 /* PBXTargetDependency */,
+			);
+			name = "Pods-NRLogger_Example";
+			productName = "Pods-NRLogger_Example";
+			productReference = F2FC58D095029B43356236757DD3648D /* Pods_NRLogger_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3985275C01482EADEED4BB5B2B3915ED /* Pods-NRLogger_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE5F1F52FD083E891076D9A03BE6E049 /* Build configuration list for PBXNativeTarget "Pods-NRLogger_Tests" */;
+			buildPhases = (
+				8ABE0F3750CFDD19022242C509A94EAF /* Headers */,
+				DFD8FD1B62903133B015D809317BFD14 /* Sources */,
+				4464DB247B8FB828285344339373B4FF /* Frameworks */,
+				CA196C080D12613C3024154D38855426 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2AFB20D3FC644A67852FE039D5E62E1C /* PBXTargetDependency */,
+			);
+			name = "Pods-NRLogger_Tests";
+			productName = "Pods-NRLogger_Tests";
+			productReference = 22A503A4E1B483A569FD1B5C571D2870 /* Pods_NRLogger_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8EEB62BB1B749E9DBD6822940353522E /* NRLogger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78F5330B4E140CE6BAC091507472C5E4 /* Build configuration list for PBXNativeTarget "NRLogger" */;
+			buildPhases = (
+				B6937E051B0D220CB17AEF2BAEC21497 /* Headers */,
+				3B76BA6DA950C225F00E881BC68180E2 /* Sources */,
+				195A8D863269019E5C10104693F6C578 /* Frameworks */,
+				3CD24C4889C4BA86B228CB341E18C45F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NRLogger;
+			productName = NRLogger;
+			productReference = 4016606C09BA51A18B10B4DCFDF16669 /* NRLogger.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = C863B35A402F558C48468CE8FC88C1F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8EEB62BB1B749E9DBD6822940353522E /* NRLogger */,
+				1526DFB31DE028BE021F0F84478B45D3 /* Pods-NRLogger_Example */,
+				3985275C01482EADEED4BB5B2B3915ED /* Pods-NRLogger_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		27DC2177C5735299910E4B242DE7BB78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CD24C4889C4BA86B228CB341E18C45F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA196C080D12613C3024154D38855426 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B76BA6DA950C225F00E881BC68180E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ABE16985DBB064FA33B89AD0F53CA10 /* NRLogger-dummy.m in Sources */,
+				C37E4CA5F0F2926C5D5AF8BB1CE0CE6B /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91ED47F43449C3C1F966C919A6AEF5AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDE751748AC0756C48C88EE197E41624 /* Pods-NRLogger_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFD8FD1B62903133B015D809317BFD14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F04A361D551DEDEB00F2FED0478C94BE /* Pods-NRLogger_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2AFB20D3FC644A67852FE039D5E62E1C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-NRLogger_Example";
+			target = 1526DFB31DE028BE021F0F84478B45D3 /* Pods-NRLogger_Example */;
+			targetProxy = 98CB41A2AFFD1FFF17B2C6178BA07B98 /* PBXContainerItemProxy */;
+		};
+		489FEFB114644275D3099C23EEF58749 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NRLogger;
+			target = 8EEB62BB1B749E9DBD6822940353522E /* NRLogger */;
+			targetProxy = 336EAFFFB5EE7C7C266D4DED7D4DBCC1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		57529F92172019114B244C63AF2343B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27A9174DA4155E1CBA7F6A1B5FFB3B85 /* Pods-NRLogger_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NRLogger_Example/Pods-NRLogger_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NRLogger_Example/Pods-NRLogger_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		66D1843665C92C9BA20421E48E0537BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 946E09831DE43F7AFF60CE5A786A2B4A /* Pods-NRLogger_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NRLogger_Example/Pods-NRLogger_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NRLogger_Example/Pods-NRLogger_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		89A42C98A75658DCED68EE9313C144A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 903F6D07BBA3D43E1C238AEDF801A16C /* NRLogger.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NRLogger/NRLogger-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NRLogger/NRLogger-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NRLogger/NRLogger.modulemap";
+				PRODUCT_MODULE_NAME = NRLogger;
+				PRODUCT_NAME = NRLogger;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B73095A2E552C4374BBC489A5CDAA1D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 903F6D07BBA3D43E1C238AEDF801A16C /* NRLogger.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NRLogger/NRLogger-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NRLogger/NRLogger-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NRLogger/NRLogger.modulemap";
+				PRODUCT_MODULE_NAME = NRLogger;
+				PRODUCT_NAME = NRLogger;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D003A8FA40A48221AC86F6CE8FB75402 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4158B9AC4243DEED07BBA62E3C3D6FD4 /* Pods-NRLogger_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NRLogger_Tests/Pods-NRLogger_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NRLogger_Tests/Pods-NRLogger_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F719DD0BBEFAB56427EE3647893D599A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 409C0D382D791AE5760425E9281BE854 /* Pods-NRLogger_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NRLogger_Tests/Pods-NRLogger_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NRLogger_Tests/Pods-NRLogger_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78F5330B4E140CE6BAC091507472C5E4 /* Build configuration list for PBXNativeTarget "NRLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B73095A2E552C4374BBC489A5CDAA1D9 /* Debug */,
+				89A42C98A75658DCED68EE9313C144A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9378FCD66947ED2112F75F59634A8FE5 /* Build configuration list for PBXNativeTarget "Pods-NRLogger_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57529F92172019114B244C63AF2343B9 /* Debug */,
+				66D1843665C92C9BA20421E48E0537BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE5F1F52FD083E891076D9A03BE6E049 /* Build configuration list for PBXNativeTarget "Pods-NRLogger_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F719DD0BBEFAB56427EE3647893D599A /* Debug */,
+				D003A8FA40A48221AC86F6CE8FB75402 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
