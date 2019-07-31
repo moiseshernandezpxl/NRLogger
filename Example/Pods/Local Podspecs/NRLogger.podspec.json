@@ -1,8 +1,8 @@
 {
   "name": "NRLogger",
   "version": "0.1.0",
-  "summary": "A short description of NRLogger.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "NRLogger is a tool created to help New Relic to log important events.",
+  "description": "The CocoaPod NRLogger is a tool created to help New Relic to log important events.",
   "homepage": "https://github.com/moiseshernandezpxl/NRLogger",
   "license": {
     "type": "MIT",
@@ -18,5 +18,7 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "NRLogger/Classes/**/*"
+  "swift_versions": "4",
+  "source_files": "NRLogger/Classes/**/*",
+  "swift_version": "4"
 }
